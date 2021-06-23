@@ -1,0 +1,30 @@
+# osm_user - datatype text
+# osm_uid - datatype integer
+# osm_version - datatype integer
+# osm_changeset - datatype integer
+# osm_timestamp - datatype timestamptz(0).
+# Used with the --extra-attributes option to include metadata in the database.
+# If importing with both --hstore and --extra-attributes the meta-data will
+# end up in the tags hstore column regardless of the style file.
+
+# OsmType  Tag                  DataType    Flags
+node,way   aq_type              text        polygon
+node,way   aq_strategic_user    text        point
+node,way   aq_system_type       text        point
+node,way   aq_work_pressure     text        point
+node,way   aq_max_debit         text        point
+node,way   aq_altitude_terrain  text        point
+node,way   aq_depth_of_install  text        point
+node,way   layer                text        point
+node,way   aq_diameter          text        point
+node,way   aq_billing_uid       text        point
+node,way   aq_uid               text        point
+node,way   aq_exploit           text        point
+node,way   aq_material          text        point
+node,way   aq_water_category    text        point
+node,way   location             text        point
+node,way   aq_category          text        point
+node,way   aq_pressure_work     text        point
+node,way   aq_remarks           text        point
+node,way   name                 text        point
+
