@@ -7,7 +7,7 @@ SOURCE_DB_NAME = os.getenv('SOURCE_DB_NAME', 'aquagis_pernik')
 SOURCE_DB_USER = os.getenv('SOURCE_DB_USER', 'gis')
 
 TEMP_AQUAGIS_FILE = os.getenv('TEMP_OSM', 'tmp.osm')
-TEMP_FOLDER = os.getenv('TEMP_FOLDER', '/mapslab/tmp/')
+TEMP_FOLDER = os.getenv('TEMP_FOLDER', '/srv/tmp/')
 AQUAGIS_STYLE_PATH = os.getenv('AQUAGIS_STYLE_PATH', '/srv/tools/aquagis/aquagis_default.style')
 AQUAGIS_WAREHOUSE_PREFIX = os.getenv('AQUAGIS_WAREHOUSE_PREFIX', 'aquagis_20210624')
 
